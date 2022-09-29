@@ -1,0 +1,19 @@
+.chrome-extension-pop-up {
+    box-sizing: border-box;
+    position: absolute;
+    width: 70px;
+    /* height: 100px; */
+    background: beige;
+    z-index: 2000 !important;
+    cursor: pointer;
+    padding: 2px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chrome-extension-pop-up div {
+    width: auto;
+    pointer-events: none;
+    user-select: none;
+}
