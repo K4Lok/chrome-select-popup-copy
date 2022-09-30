@@ -2,7 +2,7 @@ let exists = false;
 
 window.addEventListener('mouseup', () => setTimeout(() => {        
         mouseUpHandler();
-    }, 10)
+    }, 100)
 );
 
 function mouseUpHandler() {
