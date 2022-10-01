@@ -1,6 +1,19 @@
 
 ---
 
+### 2022.10.01
+[CSS, JS]
+
+Update the styles of the pop up button.
+- Hover effect.
+- Active effect.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/82365010/193397877-be6f9dbd-a788-4063-a0fa-9de362e04c4c.gif" width="474" height="362"/>
+</p>
+
+---
+
 ### 2022.09.29
 [Design, Coding]
 
