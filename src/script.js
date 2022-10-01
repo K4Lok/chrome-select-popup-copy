@@ -1,4 +1,6 @@
 let exists = false;
+const X_OFFSET = 10;
+const POPUP_HEIGHT = 32;
 
 window.addEventListener('mouseup', () => setTimeout(() => {        
         mouseUpHandler();
@@ -35,8 +37,8 @@ function createElementDisplay(value, position) {
     popup.classList.add("chrome-extension-pop-up");
     popup.setAttribute(
         'style',
-        `left: ${position.x + position.width + window.scrollX}px;
-         top: ${position.y + window.scrollY}px;`
+        `left: ${position.x + position.width + window.scrollX + X_OFFSET}px;
+         top: ${position.y + window.scrollY + position.height / 2 - POPUP_HEIGHT / 2}px;`
     );
     document.body.appendChild(popup);
     console.log(value.trim());

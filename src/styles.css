@@ -1,19 +1,35 @@
 .chrome-extension-pop-up {
     box-sizing: border-box;
     position: absolute;
-    width: 70px;
+    width: 60px;
     /* height: 100px; */
-    background: beige;
+    background: rgba(245, 245, 220, 0.6);
     z-index: 2000 !important;
     cursor: pointer;
-    padding: 2px 8px;
+    padding: 2px 2px;
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 2px solid rgb(175, 175, 154);
+    border-radius: 10px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    color: rgba(0, 0, 0, 0.6)
 }
 
 .chrome-extension-pop-up div {
     width: auto;
     pointer-events: none;
     user-select: none;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.chrome-extension-pop-up:hover {
+    background-color: rgb(222, 222, 189);
+    color: rgb(255, 255, 255);
+}
+
+.chrome-extension-pop-up:active {
+    scale: 1.05;
+    background-color: rgb(194, 194, 164);
 }
